@@ -25,15 +25,23 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <style>
-        body {
+        body::before {
+            content: "";
             height: 100%;
             font-family: "Mulish", sans-serif;
             -webkit-font-smoothing: antialiased;
             background-color: transparent;
-            background-image: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bGlicmFyeXxlbnwwfHwwfHw%3D&w=1000&q=80');
+            background-image: url('https://i.ibb.co/VLXgkGD/bg.png');
+            opacity: 0.5;
             background-size: cover;
             background-attachment: fixed;
-          }
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 218.7vh;
+            height: 250vh;
+            z-index: -1;
+            }    
     </style>
 </head>
 
